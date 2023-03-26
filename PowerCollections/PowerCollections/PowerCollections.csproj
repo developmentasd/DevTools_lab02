@@ -7,7 +7,7 @@
 
 		<PackageId>ShalavinaNastya.PowerCollections</PackageId>
 		<Description>The Power Collections group of collection classes.</Description>
-		<VersionPrefix>0.0.2</VersionPrefix>
+		<VersionPrefix>0.0.3</VersionPrefix>
 		<VersionSuffix>beta</VersionSuffix>
 
 		<RepositoryUrl>https://github.com/developmentasd/DevTools_lab02.git</RepositoryUrl>

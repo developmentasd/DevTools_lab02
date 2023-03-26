@@ -11,7 +11,7 @@ namespace PowerCollections
         public int Count { get; private set; } = 0;
         public int Capacity => storage.Length;
 
-        public Stack(int capacity)
+        public Stack(int capacity = 100)
         {
             if (capacity <= 0)
                 throw new ArgumentOutOfRangeException("Length should be above zero");

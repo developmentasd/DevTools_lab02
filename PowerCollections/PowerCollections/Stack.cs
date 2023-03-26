@@ -13,7 +13,7 @@ namespace PowerCollections
 
         public Stack(int capacity = 100)
         {
-            if (capacity <= 
+            if (capacity <= 0)
                 throw new ArgumentOutOfRangeException("Length should be above zero");
             storage = new T[capacity];
         }

@@ -13,7 +13,7 @@ namespace PowerCollections.Tests
             var stack = new Stack<int>(5);
 
             Assert.AreEqual(0, stack.Count);
-            Assert.AreEqual(5, stack.Capacity);
+            Assert.AreEqual(0, stack.Capacity);
         }
 
         [TestMethod]
